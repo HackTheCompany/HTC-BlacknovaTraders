@@ -1,0 +1,12 @@
+{
+  "env": {
+    "ADMIN_PASSWORD": "replacepassword",
+    "ADMIN_EMAIL": "email@email.com"
+  },
+  "addons": [
+    "papertrail",
+    "cleardb",
+    "scheduler"
+  ],
+  "success_url": "/create_universe.php"
+}
